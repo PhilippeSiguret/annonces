@@ -10,4 +10,8 @@
 a {
 	color: #022B4C;
 	font-family: sans-serif;
+	font-size: large;
+}
+.ais-search-box > input {
+	width: 100%;
 }
