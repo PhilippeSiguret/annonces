@@ -14,8 +14,13 @@ a {
 }
 .ais-search-box > input {
 	width: 100%;
+	padding-left: 2em;
+
 }
 .navbar-toggler-icon {
 	color: white;
 	background-color: white;
+}
+#left-column {
+	font-size: 80%;
 }
