@@ -100,7 +100,7 @@
         <div style="padding-top:2%; padding-left : 3%;">
             
             <header>
-                    <div id="search-input" class=" col-sm-8 col-sm-offset-8" style="border: thin solid #DCDADA;border-radius: 20px; width: 100%; "></div>
+                    <div id="search-input" class=" col-sm-8 col-sm-offset-8" style="border: thin solid #FFFFFF;border-radius: 20px; width: 100%; "></div>
                 </header>
                 <main class="row" style="padding-top : 3%" "width: 1920px">
                     <div id="left-column" class="d-none d-sm-block col-lg-2 col-md-block">
@@ -124,7 +124,8 @@
         <div class="hit">
             <div class="hit-content">
                 <h2 class="hit-name event"><a href="{{url}}" target="_blank">{{nomduspote}} - {{lieu}} </a></h2>
-                <p class="hit-description noevent" style="font-family:maven pro;">{{descriptioncourte}}... <a href="{{url}}" class="event" target="_blank">En savoir plus</a></p>
+                <p class="hit-description noevent" style="font-family:helvetica;">{{descriptioncourte}}... <a href="{{url}}" class="event" target="_blank">En savoir plus</a></p>
+                <hr>
             </div>
         </div>
     </script> 
@@ -137,17 +138,11 @@
             </div>
         </div>
     </script>
+    <hr>
     </main>
 
     </header>
 
-
-    <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        Copyright &copy; Your Website 2018
-      </div>
-    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/instantsearch.js/1.5.1/instantsearch.min.js"></script>
@@ -155,6 +150,39 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+  window.intercomSettings = {
+    app_id: "wnf4fpmu"
+  };
+</script>
+<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/wnf4fpmu';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+<script>
+window['_fs_debug'] = false;
+window['_fs_host'] = 'fullstory.com';
+window['_fs_org'] = '6Y4XG';
+window['_fs_namespace'] = 'FS';
+(function(m,n,e,t,l,o,g,y){
+    if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+    g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+    o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+    y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+    g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+    g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+    g.consent=function(a){g("consent",!arguments.length||a)};
+    g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+    g.clearUserCookie=function(){};
+})(window,document,window['_fs_namespace'],'script','user');
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-50024134-20"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-50024134-20');
+</script>
+
 
   </body>
 

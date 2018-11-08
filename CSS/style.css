@@ -10,11 +10,13 @@
 a {
 	color: #022B4C;
 	font-family: sans-serif;
-	font-size: large;
+	font-size: 20px;
 }
 .ais-search-box > input {
 	width: 100%;
 	padding-left: 2em;
+	height: 40px;
+	color: #ffffff
 
 }
 .navbar-toggler-icon {
@@ -23,4 +25,17 @@ a {
 }
 #left-column {
 	font-size: 80%;
+}
+p {
+	font-family: mavenpro;
+
+}
+
+.nav-link {
+	font-size: 15px;
+	text-align: center;
+}
+#search-input {
+	border-radius: 0% !important;
+	color: white !important;
 }
