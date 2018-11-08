@@ -39,3 +39,9 @@ p {
 	border-radius: 0% !important;
 	color: white !important;
 }
+.event {
+	font-size: 105%;
+}
+.ais-refinement-list--header {
+	padding-bottom: 7% !important;
+}
